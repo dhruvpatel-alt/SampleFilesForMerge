@@ -1,0 +1,12 @@
+{
+
+"from_tables" : ["SET_A_2023_06_01T18_17_47_648Z_Balances", "SET_B_2023_06_01T18_17_57_944Z_Balances", "SET_C_2023_06_01T18_18_17_586Z_Balances"],
+
+"prices" : "latest",
+
+"address_file" : "C:/Internship_Project/address.csv",
+
+"missing_address" : "skip"
+
+}
+
