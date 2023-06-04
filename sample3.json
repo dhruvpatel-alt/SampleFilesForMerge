@@ -1,0 +1,37 @@
+{
+    "runlabel": "SET_C",
+    "database":"mydatabase.db",
+    "networks": [
+        {
+            "ecosystem": "BTC",
+            "addresses": [
+                "3JJmF63ifcamPLiAmLgG96RA599yNtY3EQ"
+            ],
+            "balance_endpoints": [
+                "https://blockchain.info/balance?active="
+            ],
+            "price_endpoints": [
+                "https://api.coingecko.com/api/v3/simple/price",
+                "https://api.coincap.io/v2/assets"
+            ]
+        },
+        { "ecosystem" : "COSMOS",
+          "addresses" : [
+            "cosmos10g5laa3c8gsxjm47cj48u3j0x7ph83nmqy6nha"
+        ],
+
+          "chains" : [
+
+            { "chain_name" : "cosmoshub", 
+              "price_endpoints" : ["https://api.coingecko.com/api/v3/simple/price", "https://api.coincap.io/v2/assets"],
+              "balance_endpoints" : ["https://cosmos-lcd.chorus.one","https://lcd-cosmoshub.blockapsis.com","https://lcd.cosmos.dragonstake.io","https://lcd-cosmoshub.whispernode.com","https://cosmos-lcd.easy2stake.com"]
+            },
+            { "chain_name" : "osmosis", 
+            "price_endpoints" : ["https://api.coingecko.com/api/v3/simple/price", "https://api.coincap.io/v2/assets"],
+            "balance_endpoints" : ["https://osmosis-lcd.chorus.one","https://lcd.osmosis.zone","https://lcd-osmosis.blockapsis.com","https://osmosis-lcd.quickapi.com","https://osmosis-mainnet-lcd.autostake.com"]
+            }
+
+        ] 
+        }
+    ]
+}

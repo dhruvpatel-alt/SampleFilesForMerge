@@ -1,0 +1,51 @@
+{
+    "runlabel": "SET_B",
+    "database":"mydatabase.db",
+    "networks": [
+        {
+            "ecosystem": "BTC",
+            "addresses": [
+                "bc1qgdjqv0av3q56jvd82tkdjpy7gdp9ut8tlqmgrpmv24sq90ecnvqqjwvw97",
+                "3M219KR5vEneNb47ewrPfWyb5jQ2DjxRP6"
+            ],
+            "balance_endpoints": [
+                "https://blockchain.info/balance?active="
+            ],
+            "price_endpoints": [
+                "https://api.coingecko.com/api/v3/simple/price",
+                "https://api.coincap.io/v2/assets"
+            ]
+        },
+        {
+            "ecosystem": "ETH",
+            "addresses": [
+                "0xF2e8930f92972E80e03DdCc9D903618f48A60Dc5"
+            ],
+            "balance_endpoints": [
+                "https://eth-rpc.gateway.pokt.network"
+            ],
+            "price_endpoints": [
+                "https://api.coingecko.com/api/v3/simple/price",
+                "https://api.coincap.io/v2/assets"
+            ],
+            "erc20_tokens": [
+                {
+                    "token_name": "USDC",
+                    "contract_address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+                    "decimal_places": "6"
+                },
+                {
+                    "token_name": "USDT",
+                    "contract_address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+                    "decimal_places": "6"
+                }
+                ,
+                {
+                    "token_name": "BUSD",
+                    "contract_address": "0x4Fabb145d64652a948d72533023f6E7A623C7C53",
+                    "decimal_places": "18"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "runlabel": "SET_A",
+    "database":"mydatabase.db",
+    "networks": [
+        {
+            "ecosystem": "BTC",
+            "addresses": [
+                "34xp4vRoCGJym3xR7yCVPFHoCNxv4Twseo",
+                "1LQoWist8KkaUXSPKZHNvEyfrEkPHzSsCd"
+            ],
+            "balance_endpoints": [
+                "https://blockchain.info/balance?active="
+            ],
+            "price_endpoints": [
+                "https://api.coingecko.com/api/v3/simple/price",
+                "https://api.coincap.io/v2/assets"
+            ]
+        }
+    ]
+}
